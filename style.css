@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+.cabecera{
+    width: 100vw;
+    height: 10vh;
+    background-color: aqua;
+}
+.nav-bar{
+    width: 100%;
+    background-color: dimgrey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end ;
+    height: 75%;
+}
+.nav-list{
+    background-color: darkseagreen;
+    display: flex;
+    flex:50% 2 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item{
+    flex:10% 1 1;
+}
+
+
+.extra-buttons{
+    display: flex;
+    background-color: blue;
+    flex: 20% 1 1;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content-container{
+    display: flex;
+    background-color:salmon;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+}
+
+.card{
+    background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 30px;
+    flex:30% 1 1;
+}
+.card-title{
+    padding-bottom: 10%;
+}
+.card-body{
+    padding-bottom: 10%;
+}
+.card-img{
+    flex: 70% 2 1;
+    height: 80%;
+    background-color: darkorange;
+}
+
+#login{
+    flex:40% 1 1;
+}
+#search{
+    flex:20% 1 1;
+}
+
+.content-container-2{
+    display: flex;
+    background-color:salmon;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+}
+.content-container-2 .card-img{
+    flex: 85% 2 1;
+    height: 80%;
+    background-color:darkorchid;
+}
+.button-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+}
+.button-group button{
+    flex:10% 1 1;
+}
