@@ -122,15 +122,6 @@ ul{
 .button-group button{
     flex:10% 1 1;
 }
-
-.main-content{
-    width: 100vw;
-    background-color: darkslategray;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-}
 .img-container{
     background-color: chocolate;
     display: flex;
@@ -140,11 +131,36 @@ ul{
     height: 20vh;
     width: 100vw;
     align-content:flex-start;
+    /* overflow: hidden; */
 }
+/* .img-container:hover{
+    overflow: visible;
+} */
 .img-container .card-img{
     max-height: 100%;
     background-color: aquamarine;
     border: 1px solid;
     border-radius: 10%;
     margin-inline: 5px;
+    margin-bottom: 1%;
 }
+.main-content{
+    width: 100vw;
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.main-content .img-container{
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+    height: 30%;
+    width: 100vw;
+    align-content:flex-start;
+    /* overflow: hidden; */
+}
+
