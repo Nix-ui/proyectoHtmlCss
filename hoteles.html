@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hoteles - Destinos de Lujo</title>
+</head>
+<body>
+    <header class="cabecera">
+        <nav class="nav-bar">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger-menu">
+                <img src="img/menu-slider.svg" alt="menu" class="menu-icon">
+            </label>
+            <img class="icon-logo" src="img/travel-logo.svg" alt="travel-logo">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item" id="first-element">
+                    <details class="options" id="first-item" tabindex="-1">
+                        <summary tabindex="0">Viajes</summary>
+                    </details>
+                </li>
+                <li class="nav-item" id="second-element">
+                    <details class="options" id="second-item" tabindex="-1">
+                        <summary tabindex="0">Tours</summary>
+                        <div class="container" id="third-container">
+                            <ul>
+                                <li><a href="machu_pichu.html">Machu Picchu</a></li>
+                                <li><a href="">Cusco City</a></li>
+                                <li><a href="">Valle Sagrado</a></li>
+                                <li><a href="">Líneas de Nazca</a></li>
+                            </ul>
+                        </div>
+                    </details>
+                </li>
+                <li class="nav-item" id="third-element">
+                    <details class="options" id="third-item" tabindex="-1">
+                        <summary tabindex="0">Hoteles</summary>
+                        <div class="container" id="third-container">
+                            <ul>
+                                <li><a href="hoteles.html">Ver todos</a></li>
+                                <li><a href="">5 estrellas</a></li>
+                                <li><a href="">4 estrellas</a></li>
+                                <li><a href="">Boutique</a></li>
+                            </ul>
+                        </div>
+                    </details>
+                </li>
+            </ul>
+            <ul class="extra-buttons">
+                <li id="login"><a href="">login</a></li>
+                <li id="search">
+                    <div class="search-container">
+                        <input type="search" name="search" id="search-bar" placeholder="Buscar hotel...">
+                        <button class="search-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hotels-content">
+        <section class="hero-section hotels-hero">
+            <div class="content-container">
+                <div class="card">
+                    <h1 class="card-title">Hoteles de Lujo en Cusco</h1>
+                    <p class="card-body">Descubre nuestra exclusiva selección de hoteles en Cusco. Desde lujosos resorts hasta encantadores hoteles boutique, encuentra el alojamiento perfecto para tu aventura.</p>
+                    <div class="hotel-search-container">
+                        <div class="search-filters">
+                            <select class="hotel-filter">
+                                <option value="">Categoría</option>
+                                <option value="5">5 estrellas</option>
+                                <option value="4">4 estrellas</option>
+                                <option value="boutique">Boutique</option>
+                            </select>
+                            <select class="hotel-filter">
+                                <option value="">Precio</option>
+                                <option value="low">$100 - $200</option>
+                                <option value="mid">$200 - $400</option>
+                                <option value="high">$400+</option>
+                            </select>
+                            <button class="search-hotels-btn">Buscar Hoteles</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-hotels">
+            <h2>Hoteles Destacados</h2>
+            <div class="hotels-grid">
+                <article class="hotel-card">
+                    <img src="img/example.svg" alt="Hotel Luxury Cusco">
+                    <div class="hotel-info">
+                        <div class="hotel-header">
+                            <h3>Hotel Luxury Cusco</h3>
+                            <div class="hotel-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="category">5 estrellas</span>
+                            </div>
+                        </div>
+                        <p>Ubicado en el corazón de Cusco, ofrece vistas panorámicas y servicios de primera clase.</p>
+                        <div class="hotel-features">
+                            <span>🏊‍♂️ Piscina</span>
+                            <span>🍽️ Restaurante</span>
+                            <span>🚗 Parking</span>
+                            <span>💆‍♀️ Spa</span>
+                        </div>
+                        <div class="hotel-price">
+                            <span class="price">Desde $300</span>
+                            <span class="per-night">por noche</span>
+                        </div>
+                        <button class="reserve-button">Ver Disponibilidad</button>
+                    </div>
+                </article>
+
+                <article class="hotel-card">
+                    <img src="img/park.svg" alt="Boutique Plaza Hotel">
+                    <div class="hotel-info">
+                        <div class="hotel-header">
+                            <h3>Boutique Plaza Hotel</h3>
+                            <div class="hotel-rating">
+                                <span class="stars">★★★★</span>
+                                <span class="category">Boutique</span>
+                            </div>
+                        </div>
+                        <p>Un hotel boutique con encanto colonial y modernas comodidades en la Plaza de Armas.</p>
+                        <div class="hotel-features">
+                            <span>☕ Desayuno</span>
+                            <span>📶 Wi-Fi</span>
+                            <span>🛎️ Conserje</span>
+                            <span>🏺 Bar</span>
+                        </div>
+                        <div class="hotel-price">
+                            <span class="price">Desde $200</span>
+                            <span class="per-night">por noche</span>
+                        </div>
+                        <button class="reserve-button">Ver Disponibilidad</button>
+                    </div>
+                </article>
+
+                <article class="hotel-card">
+                    <img src="img/glaciar.svg" alt="Mountain View Resort">
+                    <div class="hotel-info">
+                        <div class="hotel-header">
+                            <h3>Mountain View Resort</h3>
+                            <div class="hotel-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="category">5 estrellas</span>
+                            </div>
+                        </div>
+                        <p>Resort de lujo con impresionantes vistas a las montañas y servicios exclusivos.</p>
+                        <div class="hotel-features">
+                            <span>🌅 Vistas</span>
+                            <span>🏊‍♂️ Piscina</span>
+                            <span>🍷 Vinoteca</span>
+                            <span>🚁 Helipuerto</span>
+                        </div>
+                        <div class="hotel-price">
+                            <span class="price">Desde $450</span>
+                            <span class="per-night">por noche</span>
+                        </div>
+                        <button class="reserve-button">Ver Disponibilidad</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="hotel-amenities">
+            <h2>Servicios Premium</h2>
+            <div class="amenities-grid">
+                <div class="amenity-card">
+                    <span class="amenity-icon">🛎️</span>
+                    <h3>Servicio 24/7</h3>
+                    <p>Atención personalizada las 24 horas del día.</p>
+                </div>
+                <div class="amenity-card">
+                    <span class="amenity-icon">🚗</span>
+                    <h3>Transfer Privado</h3>
+                    <p>Servicio de transporte desde y hacia el aeropuerto.</p>
+                </div>
+                <div class="amenity-card">
+                    <span class="amenity-icon">👨‍🍳</span>
+                    <h3>Gastronomía</h3>
+                    <p>Restaurantes de clase mundial con cocina local e internacional.</p>
+                </div>
+                <div class="amenity-card">
+                    <span class="amenity-icon">💆‍♀️</span>
+                    <h3>Spa & Wellness</h3>
+                    <p>Instalaciones de spa y bienestar de primera clase.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        // ...existing footer code...
+    </footer>
+</body>
+</html>

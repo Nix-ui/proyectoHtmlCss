@@ -20,12 +20,12 @@
                 </li>
                 <li class="nav-item" id="first-element">
                     <details class="options" id="first-item" tabindex="-1">
-                        <summary tabindex="0">1</summary>
+                        <summary tabindex="0">Viajes</summary>
                     </details>
                 </li>
                 <li class="nav-item" id="second-element">
                     <details class="options" id="second-item" tabindex="-1">
-                        <summary tabindex="0">2</summary>
+                        <summary tabindex="0">Tours</summary>
                         <div class="container" id="third-container">
                             <ul>
                                 <li><a href="">item</a></li>
@@ -38,7 +38,7 @@
                 </li>
                 <li class="nav-item" id="third-element">
                     <details class="options" id="third-item" tabindex="-1">
-                        <summary tabindex="0">3</summary>
+                        <summary tabindex="0">Seguros</summary>
                         <div class="container" id="third-container">
                             <ul>
                                 <li><a href="">item</a></li>
@@ -52,38 +52,10 @@
                 </li>
                 <li class="nav-item" id="fourth-element">
                     <details class="options" id="fourth-item" tabindex="-1">
-                        <summary tabindex="0">4</summary>
+                        <summary tabindex="0">Hoteles</summary>
                         <div class="container" id="third-container">
                             <ul>
-                                <li><a href="">item</a></li>
-                                <li><a href="">item</a></li>
-                                <li><a href="">item</a></li>
-                                <li><a href="">item</a></li>
-                            </ul>
-                        </div>
-                    </details>
-                </li>
-                <li class="nav-item" id="fifth-element">
-                    <details class="options" id="fifth-item" tabindex="-1">
-                        <summary tabindex="0">5</summary>
-                        <div class="container" id="fifth-container">
-                            <ul>
-                                <li><a href="">item</a></li>
-                                <li><a href="">item</a></li>
-                                <li><a href="">item</a></li>
-                                <li><a href="">item</a></li>
-                                <li><a href="">item</a></li>
-                            </ul>
-                        </div>
-                    </details>
-                </li>
-                <li class="nav-item" id="sixth-element">
-                    <details class="options" id="sixth-item" tabindex="-1">
-                        <summary tabindex="0">6</summary>
-                        <div class="container" id="sixth-container">
-                            <ul>
-                                <li><a href="">item</a></li>
-                                <li><a href="">item</a></li>
+                                <li><a href="/hoteles.html">Hoteles</a></li>
                                 <li><a href="">item</a></li>
                                 <li><a href="">item</a></li>
                                 <li><a href="">item</a></li>
@@ -93,8 +65,18 @@
                 </li>
             </ul>
             <ul class="extra-buttons">
-                <li id="login">login</li>
-                <li id="search">search</li>
+                <li id="login"><a href="">login</a></li>
+                <li id="search">
+                    <div class="search-container">
+                        <input type="search" name="search" id="search-bar" placeholder="Buscar...">
+                        <button class="search-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </li>
             </ul>
         </nav>
     </header>
@@ -165,9 +147,8 @@
         <img src="img/glaciar.svg" alt="" class="card-img">
         <img src="img/example.svg" alt="" class="card-img">
     </div>
-    <div class="content-container-2">
+    <div class="content-container-2" id="container-2">
         <div class="card">
-            <h4 class="card-title">Subtitle</h4>
             <div class="card-body">
                 <h5 class="card-title">Subsubtitle</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi neque officia adipisci consequatur incidunt itaque numquam fuga ipsam! Vero facilis sunt molestias vitae provident eaque enim blanditiis eius beatae.</p>
@@ -200,6 +181,58 @@
             <img src="img/example.svg" alt="" class="card-img">
         </div>
     </main>
-    <script src="script.js"></script>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Soporte</h3>
+                <ul>
+                    <li><a href="#">Centro de ayuda</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Contáctanos</a></li>
+                    <li><a href="#">Política de cancelación</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Compañía</h3>
+                <ul>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Carreras</a></li>
+                    <li><a href="#">Sala de prensa</a></li>
+                    <li><a href="#">Responsabilidad social</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Términos de uso</a></li>
+                    <li><a href="#">Privacidad</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">Aviso legal</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">YouTube</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-logo">
+                <img src="img/travel-logo.svg" alt="Logo">
+            </div>
+            <p class="copyright">© 2025 Travel Agency. Todos los derechos reservados.</p>
+            <div class="region-selector">
+                <select>
+                    <option value="es">España</option>
+                    <option value="pe">Perú</option>
+                    <option value="mx">México</option>
+                </select>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

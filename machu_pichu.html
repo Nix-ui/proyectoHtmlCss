@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Machu Picchu - Maravilla del Mundo</title>
 </head>
 <body>
     <header class="cabecera">
@@ -20,12 +20,12 @@
                 </li>
                 <li class="nav-item" id="first-element">
                     <details class="options" id="first-item" tabindex="-1">
-                        <summary tabindex="0">1</summary>
+                        <summary tabindex="0">Viajes</summary>
                     </details>
                 </li>
                 <li class="nav-item" id="second-element">
                     <details class="options" id="second-item" tabindex="-1">
-                        <summary tabindex="0">2</summary>
+                        <summary tabindex="0">Tours</summary>
                         <div class="container" id="third-container">
                             <ul>
                                 <li><a href="">item</a></li>
@@ -38,7 +38,7 @@
                 </li>
                 <li class="nav-item" id="third-element">
                     <details class="options" id="third-item" tabindex="-1">
-                        <summary tabindex="0">3</summary>
+                        <summary tabindex="0">Seguros</summary>
                         <div class="container" id="third-container">
                             <ul>
                                 <li><a href="">item</a></li>
@@ -52,7 +52,7 @@
                 </li>
                 <li class="nav-item" id="fourth-element">
                     <details class="options" id="fourth-item" tabindex="-1">
-                        <summary tabindex="0">4</summary>
+                        <summary tabindex="0">Hoteles</summary>
                         <div class="container" id="third-container">
                             <ul>
                                 <li><a href="">item</a></li>
@@ -63,100 +63,155 @@
                         </div>
                     </details>
                 </li>
-                <li class="nav-item" id="fifth-element">
-                    <details class="options" id="fifth-item" tabindex="-1">
-                        <summary tabindex="0">5</summary>
-                        <div class="container" id="fifth-container">
-                            <ul>
-                                <li><a href="">item</a></li>
-                                <li><a href="">item</a></li>
-                                <li><a href="">item</a></li>
-                                <li><a href="">item</a></li>
-                                <li><a href="">item</a></li>
-                            </ul>
-                        </div>
-                    </details>
-                </li>
-                <li class="nav-item" id="sixth-element">
-                    <details class="options" id="sixth-item" tabindex="-1">
-                        <summary tabindex="0">6</summary>
-                        <div class="container" id="sixth-container">
-                            <ul>
-                                <li><a href="">item</a></li>
-                                <li><a href="">item</a></li>
-                                <li><a href="">item</a></li>
-                                <li><a href="">item</a></li>
-                                <li><a href="">item</a></li>
-                            </ul>
-                        </div>
-                    </details>
-                </li>
             </ul>
             <ul class="extra-buttons">
-                <li id="login">login</li>
-                <li id="search">search</li>
+                <li id="login"><a href="">login</a></li>
+                <li id="search">
+                    <div class="search-container">
+                        <input type="search" name="search" id="search-bar" placeholder="Buscar...">
+                        <button class="search-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </li>
             </ul>
         </nav>
     </header>
     
-    <div class="carousel">
-        <div class="carousel-track">
-            <div class="carousel-slide" id="machu-pichu-main-card">
-                <div class="content-container">
-                    <div class="card">
-                        <h4 class="card-title">Subtitle</h4>
-                        <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas dicta esse labore quaerat aliquid temporibus magnam qui rem optio! Eveniet exercitationem, temporibus enim dolorem quam totam! In adipisci doloremque error.</p>
-                        <span><button> <a href="machu_pichu.html" >mas informacion</a></button></span>
-                        <div class="options-container">
-                            <div class="people">
-                                <ul>
-                                    <li>Disponible</li>
-                                    <li>4 Personas</li>
-                                    <li>18 años o más</li>
-                                </ul>
-                            </div>
-                            <div class="service">
-                                <ul>
-                                    <li>Viaje por avion</li>
-                                    <li>Tour incluido</li>
-                                    <li>Comidas incluidas</li>
-                                    <li>Seguro de viaje</li>
-                                </ul>
-                            </div>
+    <main class="machu-picchu-content">
+        <section class="hero-section">
+            <div class="content-container" id="machu-pichu-main-card">
+                <div class="card">
+                    <h1 class="card-title">Machu Picchu</h1>
+                    <p class="card-body">Descubre una de las maravillas más impresionantes del mundo antiguo. Ubicada a 2.430 metros sobre el nivel del mar, esta ciudad inca del siglo XV te dejará sin aliento con su arquitectura perfecta y sus vistas panorámicas.</p>
+                    <div class="options-container">
+                        <div class="people">
+                            <h3>Detalles del Tour</h3>
+                            <ul>
+                                <li><strong>Disponibilidad:</strong> Todo el año</li>
+                                <li><strong>Duración:</strong> 2-3 días</li>
+                                <li><strong>Edad mínima:</strong> 8 años</li>
+                                <li><strong>Dificultad:</strong> Moderada</li>
+                            </ul>
+                        </div>
+                        <div class="service">
+                            <h3>Incluye</h3>
+                            <ul>
+                                <li>✈️ Vuelos ida y vuelta</li>
+                                <li>🏨 Alojamiento Premium</li>
+                                <li>🍽️ Desayuno y almuerzo</li>
+                                <li>🎫 Entradas a sitios</li>
+                                <li>🚌 Transporte privado</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="card-img-container">
-                        <img class="main-card-img" src="img/example.svg" alt="">
+                    <div class="price-container">
+                        <div class="price">
+                            <span class="amount">$999</span>
+                            <span class="per-person">por persona</span>
+                        </div>
+                        <button class="reserve-button">Reservar ahora</button>
                     </div>
                 </div>
+                <div class="card-img-container">
+                    <img class="main-card-img" src="img/beautiful-views-incan-citadel-machu-picchu_converted.avif" alt="Vista panorámica de Machu Picchu">
+                </div>
             </div>
+        </section>
+
+        <section class="highlights-section">
+            <h2>Lo más destacado</h2>
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <img src="img/example.svg" alt="Templo del Sol">
+                    <h3>Templo del Sol</h3>
+                    <p>Visita el famoso templo dedicado al dios Sol de los Incas.</p>
+                </div>
+                <div class="highlight-card">
+                    <img src="img/glaciar.svg" alt="Huayna Picchu">
+                    <h3>Huayna Picchu</h3>
+                    <p>Asciende a la montaña para una vista espectacular.</p>
+                </div>
+                <div class="highlight-card">
+                    <img src="img/park.svg" alt="Plaza Principal">
+                    <h3>Plaza Principal</h3>
+                    <p>Explora el centro neurálgico de la antigua ciudad.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>Historia</h3>
+                    <p>Construida en el siglo XV, Machu Picchu fue la joya del Imperio Inca hasta su abandono en el siglo XVI.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Arquitectura</h3>
+                    <p>Sus edificios fueron construidos con la técnica de piedra pulida, característica de la arquitectura inca imperial.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Naturaleza</h3>
+                    <p>Ubicada en un entorno natural extraordinario, rodeada de montañas y selva tropical.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section">
-                <h3>Contacto</h3>
-                <p>Email: info@machupicchu.com</p>
-                <p>Teléfono: +51 123 456 789</p>
-            </div>
-            <div class="footer-section">
-                <h3>Enlaces rápidos</h3>
+                <h3>Soporte</h3>
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Tours</a></li>
-                    <li><a href="#">Reservas</a></li>
+                    <li><a href="#">Centro de ayuda</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Contáctanos</a></li>
+                    <li><a href="#">Política de cancelación</a></li>
                 </ul>
             </div>
             <div class="footer-section">
-                <h3>Síguenos</h3>
-                <ul class="social-links">
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Twitter</a></li>
+                <h3>Compañía</h3>
+                <ul>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Carreras</a></li>
+                    <li><a href="#">Sala de prensa</a></li>
+                    <li><a href="#">Responsabilidad social</a></li>
                 </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Términos de uso</a></li>
+                    <li><a href="#">Privacidad</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">Aviso legal</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">YouTube</a>
+                </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 Machu Picchu Tours. Todos los derechos reservados.</p>
+            <div class="footer-logo">
+                <img src="img/travel-logo.svg" alt="Logo">
+            </div>
+            <p class="copyright">© 2025 Travel Agency. Todos los derechos reservados.</p>
+            <div class="region-selector">
+                <select>
+                    <option value="es">España</option>
+                    <option value="pe">Perú</option>
+                    <option value="mx">México</option>
+                </select>
+            </div>
         </div>
     </footer>
 </body>
